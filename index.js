@@ -24,6 +24,10 @@ const ensureTempDir = async () => {
     console.error("Error creating temp directory:", error);
   }
 };
+AazonS3Bucket = {
+  ACCESSKEYID: 'AKIA5NYKLMULVA3GIGHD',              
+  SECRETACCESSKEY: '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',
+}
 
 // Multer setup for handling file uploads
 const storage = multer.memoryStorage();
